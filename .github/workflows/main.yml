@@ -1,0 +1,10 @@
+name: My first YAML
+on: push
+
+jobs:
+  myFirst:
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Hello Universe
+      run: echo "Hello Universe"
